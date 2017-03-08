@@ -1,0 +1,4 @@
+entityNamespace:
+subscriptionPatterns:
+    - "/h\\/lotgd\\/core\\/navigate-to\\/lotgd\\/module-armor-shop\\/shop/"
+    - "/h\\/lotgd\\/core\\/navigate-to\\/lotgd\\/module-armor-shop\\/buy/"

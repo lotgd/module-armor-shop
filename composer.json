@@ -1,0 +1,39 @@
+{
+    "name": "lotgd/module-armor-shop",
+    "description": "The village armor shop.",
+    "type": "lotgd-module",
+    "license": "AGPL-3.0",
+    "authors": [
+        {
+            "name": "GRRRillaNinja"
+        },
+        {
+            "name": "Austen McDonald",
+            "email": "austen.mcdonald@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LotGD\\Modules\\ArmorShop\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://code.lot.gd"
+        }
+    ],
+    "require": {
+        "lotgd/core": "0.1.0-alpha",
+        "lotgd/module-forms": "dev-master",
+        "lotgd/module-simple-inventory": "dev-master",
+        "lotgd/module-simple-wealth": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "phpunit/dbunit": "*"
+    },
+    "config": {
+        "secure-http": false
+    }
+}

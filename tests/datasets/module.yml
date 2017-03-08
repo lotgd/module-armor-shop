@@ -1,0 +1,61 @@
+characters:
+    -
+        id: 0
+        name: "Thorin"
+        displayName: "Thorin Oakenshield"
+        maxHealth: 100
+        health: 90
+        level: 50
+        deletedAt:
+    -
+        id: 1
+        name: "Gandalf"
+        displayName: "Gandalf the Grey"
+        maxHealth: 100
+        health: 90
+        level: 1
+        deletedAt:
+    -
+        id: 2
+        name: "Bilbo"
+        displayName: "Bilbo of the Shire"
+        maxHealth: 100
+        health: 90
+        level: 2
+        deletedAt:
+    -
+        id: 3
+        name: "Frodo"
+        displayName: "Frodo Baggins"
+        maxHealth: 100
+        health: 90
+        level: 2
+        deletedAt:
+scenes:
+    -
+        id: 1
+        title: "Village"
+        description: "You arrive in a village."
+        template: 'lotgd/module-village/village'
+lotgd_simple_inventory_armors:
+    -
+        id: 1
+        name: "Armor 1"
+        level: 1
+        sortKey: 1
+        cost: 100
+        defense: 1
+    -
+        id: 2
+        name: "Armor 2"
+        level: 2
+        sortKey: 1
+        cost: 25
+        defense: 1
+    -
+        id: 3
+        name: "Armor 3"
+        level: 2
+        sortKey: 2
+        cost: 100
+        defense: 1
